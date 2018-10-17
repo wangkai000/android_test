@@ -4,6 +4,7 @@ import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.text.TextUtils;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -49,14 +50,27 @@ public class MainActivity extends  Activity {
 
                 String name = editText1.getText().toString();
                 String pwd = editText2.getText().toString();
+                Log.d("llll","name="+name);
+                Log.d("llll","pwd="+pwd);
                 if(!TextUtils.isEmpty(name) && !TextUtils.isEmpty(pwd)){
                     NetWorks retrofit = Http.createRetrofit(MainActivity.this, NetWorks.class);
-                    //
                     Call<LogInfo> logInfoCall = retrofit.startLogin(name, pwd);
                     logInfoCall.enqueue(new Callback<LogInfo>() {
                         @Override
                         public void onResponse(Call<LogInfo> call, Response<LogInfo> response) {
-                            Toast.makeText(MainActivity.this, "success", Toast.LENGTH_SHORT).show();
+                            boolean success = response.body().isSuccess();
+                            if(success){
+                                Toast.makeText(MainActivity.this, "success", Toast.LENGTH_SHORT).show();
+                                Intent intent = new Intent();
+                                intent.putExtra("name1",editText1.getText().toString());
+                                intent.putExtra("name2",editText2.getText().toString());
+                                intent.putExtra("name3",editText3.getText().toString());
+                                intent.setClass(MainActivity.this,Main2Activity.class);
+                                startActivity(intent);
+                            }else{
+                                Toast.makeText(MainActivity.this, "error", Toast.LENGTH_SHORT).show();
+                            }
+
                         }
 
                         @Override

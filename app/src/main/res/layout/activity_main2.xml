@@ -8,19 +8,744 @@
     tools:context="com.test.android_demo1.android_demo1.Main2Activity">
 
 
+
+    <LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="0dp"
+        android:layout_weight="3"
+     android:orientation="horizontal"
+     android:background="#0168b7"
+     android:paddingLeft="20dp"
+     android:paddingRight="20dp"
+     >
+
+        <TextView
+            android:id="@+id/TextView1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="2036科室"
+            android:textColor="#ffffff"
+            android:layout_weight="1"
+            android:paddingTop="10dp"
+            android:textSize="36sp" />
+
+       <LinearLayout
+            android:id="@+id/layout1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+
+             >
+
+
+           <TextView
+               android:id="@+id/layout1TextView"
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:text="05~08床"
+               android:textColor="#ffffff"
+
+               android:gravity="center"
+               android:textSize="26sp" />
+
+       </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:orientation="horizontal"
+    android:background="#02abca"
+        android:layout_weight="1"
+
+    >
     <TextView
-        android:id="@+id/TextView1"
+        android:id="@+id/TextView3"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="demo1"
-        android:textColor="#333"
+        android:layout_height="match_parent"
+
+        android:text="医护人员信息"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:gravity="center"
+
         />
-    <TextView
-        android:id="@+id/TextView2"
+
+</LinearLayout>
+
+
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="23333"
-        />
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:background="#5779a3"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+
+            android:layout_margin="8dp"
+            android:orientation="vertical"
+
+            >
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2"
+                android:text="科室主任"
+                android:textColor="#ffffff"
+                android:textSize="16sp"
+                android:gravity="center"
+
+                />
+            <ImageView
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="5"
+                android:background="@drawable/doctor"
+
+                />
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2"
+                android:text="王振华"
+                android:textColor="#ffffff"
+                android:textSize="16sp"
+                android:gravity="center"
+
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+
+            android:layout_margin="8dp"
+            android:orientation="vertical"
+
+            >
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2"
+                android:text="科室主任"
+                android:textColor="#ffffff"
+                android:textSize="16sp"
+                android:gravity="center"
+
+                />
+            <ImageView
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="5"
+                android:background="@drawable/doctor"
+
+                />
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2"
+                android:text="王振华"
+                android:textColor="#ffffff"
+                android:textSize="16sp"
+                android:gravity="center"
+
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+
+            android:layout_margin="8dp"
+            android:orientation="vertical"
+
+            >
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2"
+                android:text="科室主任"
+                android:textColor="#ffffff"
+                android:textSize="16sp"
+                android:gravity="center"
+
+                />
+            <ImageView
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="5"
+                android:background="@drawable/doctor"
+
+                />
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2"
+                android:text="王振华"
+                android:textColor="#ffffff"
+                android:textSize="16sp"
+                android:gravity="center"
+
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+
+            android:layout_margin="8dp"
+            android:orientation="vertical"
+
+            >
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2"
+                android:text="科室主任"
+                android:textColor="#ffffff"
+                android:textSize="16sp"
+                android:gravity="center"
+
+                />
+            <ImageView
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="5"
+                android:background="@drawable/doctor"
+
+                />
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2"
+                android:text="王振华"
+                android:textColor="#ffffff"
+                android:textSize="16sp"
+                android:gravity="center"
+
+                />
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:background="#02abca"
+
+        >
+        <TextView
+            android:id="@+id/TextView0"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="患者病床信息"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:gravity="center"
+
+            />
+
+    </LinearLayout>
+
+
+
+
+
+    <!--患者病床信息-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="4"
+        android:background="#4489ca"
+
+        >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            >
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="match_parent"
+                            >
+                            <TextView
+
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="05"
+                                android:textColor="#ffffff"
+                                android:background="#1a5695"
+                                android:layout_margin="8dp"
+                                android:textSize="30sp"
+                                android:gravity="center"
+
+                                />
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:padding="2dp"
+                            >
+                            <TextView
+                                 android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_weight="1"
+                                android:text="床号:05号"
+                                android:textColor="#ffffff"
+                                android:layout_margin="8dp"
+                                android:textSize="10sp"
+                                />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_weight="1"
+                                android:text="姓名:张三"
+                                android:textColor="#ffffff"
+                                android:layout_margin="8dp"
+                                android:textSize="10sp"
+                                />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_weight="1"
+                                android:text="住院号:203605"
+                                android:textColor="#ffffff"
+                                android:layout_margin="8dp"
+                                android:textSize="10sp"
+                                />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_weight="1"
+                                android:text="性别:男"
+                                android:textColor="#ffffff"
+                                android:layout_margin="8dp"
+                                android:textSize="10sp"
+                                />
+
+
+                        </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            >
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                >
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="06"
+                    android:textColor="#ffffff"
+                    android:background="#1a5695"
+                    android:layout_margin="8dp"
+                    android:textSize="30sp"
+                    android:gravity="center"
+
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="2dp"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="床号:05号"
+                    android:textColor="#ffffff"
+                    android:layout_margin="8dp"
+                    android:textSize="10sp"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="姓名:张三"
+                    android:textColor="#ffffff"
+                    android:layout_margin="8dp"
+                    android:textSize="10sp"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="住院号:203605"
+                    android:textColor="#ffffff"
+                    android:layout_margin="8dp"
+                    android:textSize="10sp"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="性别:男"
+                    android:textColor="#ffffff"
+                    android:layout_margin="8dp"
+                    android:textSize="10sp"
+                    />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="4"
+        android:background="#4489ca"
+
+        >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            >
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                >
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="07"
+                    android:textColor="#ffffff"
+                    android:background="#1a5695"
+                    android:layout_margin="8dp"
+                    android:textSize="30sp"
+                    android:gravity="center"
+
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="2dp"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="床号:05号"
+                    android:textColor="#ffffff"
+                    android:layout_margin="8dp"
+                    android:textSize="10sp"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="姓名:张三"
+                    android:textColor="#ffffff"
+                    android:layout_margin="8dp"
+                    android:textSize="10sp"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="住院号:203605"
+                    android:textColor="#ffffff"
+                    android:layout_margin="8dp"
+                    android:textSize="10sp"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="性别:男"
+                    android:textColor="#ffffff"
+                    android:layout_margin="8dp"
+                    android:textSize="10sp"
+                    />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            >
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                >
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="08"
+                    android:textColor="#ffffff"
+                    android:background="#1a5695"
+                    android:layout_margin="8dp"
+                    android:textSize="30sp"
+                    android:gravity="center"
+
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="2dp"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="床号:05号"
+                    android:textColor="#ffffff"
+                    android:layout_margin="8dp"
+                    android:textSize="10sp"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="姓名:张三"
+                    android:textColor="#ffffff"
+                    android:layout_margin="8dp"
+                    android:textSize="10sp"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="住院号:203605"
+                    android:textColor="#ffffff"
+                    android:layout_margin="8dp"
+                    android:textSize="10sp"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="性别:男"
+                    android:textColor="#ffffff"
+                    android:layout_margin="8dp"
+                    android:textSize="10sp"
+                    />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    <!--底部菜单-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2.5"
+        android:background="#4489ca"
+        android:orientation="horizontal"
+
+        >
+
+     <LinearLayout
+         android:layout_width="0dp"
+         android:layout_height="match_parent"
+         android:layout_weight="1"
+         android:background="@drawable/shape_green_fang"
+         android:layout_margin="2dp"
+         >
+
+         <TextView
+
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:text="首页"
+             android:textColor="#ffffff"
+
+             android:textSize="22sp"
+             android:gravity="center"
+
+             />
+
+     </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/shape_green_fang"
+            android:layout_margin="2dp"
+            >
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="菜单"
+                android:textColor="#ffffff"
+
+                android:textSize="22sp"
+                android:gravity="center"
+
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/shape_green_fang"
+            android:layout_margin="2dp"
+            >
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="护理中"
+                android:textColor="#ffffff"
+
+                android:textSize="22sp"
+                android:gravity="center"
+
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/shape_green_fang"
+            android:layout_margin="2dp"
+            >
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="增援"
+                android:textColor="#ffffff"
+
+                android:textSize="22sp"
+                android:gravity="center"
+
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/shape_green_fang"
+            android:layout_margin="2dp"
+            >
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="返回"
+                android:textColor="#ffffff"
+
+                android:textSize="22sp"
+                android:gravity="center"
+
+                />
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
 
 
 </LinearLayout>

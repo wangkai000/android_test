@@ -14,12 +14,12 @@ public class Main2Activity extends Activity {
         setContentView(R.layout.activity_main2);
 
 
-        Intent intent = getIntent();
-        String name1 = intent.getStringExtra("name1");
-        String name2 = intent.getStringExtra("name2");
-        String name3 = intent.getStringExtra("name3");
+//        Intent intent = getIntent();
+//        String name1 = intent.getStringExtra("name1");
+//        String name2 = intent.getStringExtra("name2");
+//        String name3 = intent.getStringExtra("name3");
 
-        TextView  textView=findViewById(R.id.TextView2);
-        textView.setText(name1+'\n'+name2+'\n'+name3);
+        //TextView  textView=findViewById(R.id.TextView2);
+        //textView.setText(name1+'\n'+name2+'\n'+name3);
     }
 }
