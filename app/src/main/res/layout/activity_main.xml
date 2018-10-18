@@ -23,7 +23,7 @@
             android:id="@+id/EditText1"
             android:layout_width="match_parent"
             android:layout_height="53dp"
-            android:hint=" 请输入文字0"
+            android:hint=" 账号..."
             android:inputType="number"
             android:paddingLeft="2dp"
             android:textSize="12sp" />
@@ -32,7 +32,7 @@
             android:id="@+id/EditText2"
             android:layout_width="match_parent"
             android:layout_height="53dp"
-            android:hint=" 请输入文字1"
+            android:hint="密码..."
             android:inputType="number"
             android:paddingLeft="2dp"
             android:textSize="12sp" />
@@ -52,8 +52,27 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
+            android:backgroundTint="#008ee8"
+            android:textColor="#ffffff"
             android:background="@drawable/shape_green_fang"
             android:text="按钮" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:orientation="vertical"
+            >
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/stateButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:backgroundTint="#008ee8"
+            android:textColor="#ffffff"
+            android:background="@drawable/shape_green_fang"
+            android:text="直接跳转" />
 
     </LinearLayout>
 

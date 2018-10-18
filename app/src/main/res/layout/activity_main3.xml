@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.test.android_demo1.android_demo1.Main2Activity">
+
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/MainTextView1"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
+                android:paddingTop="20dp"
+                android:text="页面滚动测试" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="260dp"
+                android:background="#008ee8"
+                android:orientation="vertical"
+
+                >
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:background="#888888"
+                android:orientation="vertical"
+
+                >
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="#333333"
+                android:orientation="vertical"
+
+                >
+
+            </LinearLayout>
+            <!--动态渲染页面list-->
+
+
+
+
+
+
+        </LinearLayout>
+
+
+
+
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:orientation="vertical"
+
+
+        >
+        <ListView
+            android:id="@+id/ListView1"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            android:background="#008ee8"
+            >
+
+        </ListView>
+
+    </LinearLayout>
+</LinearLayout>

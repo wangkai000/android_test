@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.text.TextUtils;
 import android.util.Log;
 import android.view.View;
+import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
@@ -29,10 +30,15 @@ public class MainActivity extends  Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         requestWindowFeature(getWindow().FEATURE_NO_TITLE);
+        //隐藏statusBar
+        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
+                WindowManager.LayoutParams.FLAG_FULLSCREEN
+                );
 
         setContentView(R.layout.activity_main);
 
         Button button=findViewById(R.id.homeButton);
+        Button stateButton=findViewById(R.id.stateButton);
 
         editText1 = findViewById(R.id.EditText1);
         editText2 = findViewById(R.id.EditText2);
@@ -89,5 +95,22 @@ public class MainActivity extends  Activity {
 //
             }
         });
+
+
+
+        //点击跳转button
+        stateButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent();
+                intent.putExtra("name1",editText1.getText().toString());
+                intent.putExtra("name2",editText2.getText().toString());
+                intent.putExtra("name3",editText3.getText().toString());
+                intent.setClass(MainActivity.this,Main2Activity.class);
+                startActivity(intent);
+            }
+        });
+
+
     }
 }
