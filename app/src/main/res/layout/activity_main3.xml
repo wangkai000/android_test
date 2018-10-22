@@ -69,12 +69,12 @@
 
     </ScrollView>
 
+
+    <!--list View 暂时没有完成动态渲染 android list动态渲染还得在研究-->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="300dp"
         android:orientation="vertical"
-
-
         >
         <ListView
             android:id="@+id/ListView1"
@@ -88,4 +88,7 @@
         </ListView>
 
     </LinearLayout>
+
+
+
 </LinearLayout>
